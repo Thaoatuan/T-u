@@ -1,0 +1,40 @@
+
+
+["Chính"] = {},
+["Quá trình"] = {
+["Lực giữ ở Biển thứ hai cho đến khi có Mảnh vỡ bóng tối"] = đúng,
+["Soul Guitar Quest"] = đúng,
+["Nhiệm vụ đôi Katana bị nguyền rủa"] = đúng,
+["Tự động phản chiếu hoàn toàn Fragtal"] = đúng,
+["Mua Ẩn Kiếm"] = đúng,
+["Mua màu Haki Huyền Thoại"] = đúng,
+["Số mảnh vỡ tối đa để đột kích"] = {2000, 7500}, -- chỉ có hiệu lực nếu cấp độ của người chơi không phải là tối đa / đối số đầu tiên: biển 2, đối số thứ hai: biển 3
+["Hoa quả nhảy"] = {
+["Bật"] = đúng,
+["Độ trễ trên mỗi máy chủ"] = 60
+},
+["Trái cây làm chủ trang trại"] = đúng,
+["Tự động nhận Blue Gear"] = đúng,
+["Tự động AFK Đảo Mirage Khi Không Còn Nhiệm Vụ Nào Cho Blue Gear"] = đúng,
+["Auto Shark Anchor"] = đúng
+},
+["Trái Ác Quỷ"] = {
+["Trái cây bắn tỉa"] = {
+"Bột-Bột"
+}, --Trái cây để bắn tỉa khi nó còn trong kho
+["Chỉ ăn trái cây có thể thức tỉnh"] = đúng,
+["Khóa Trái Cây"] = {"Kitsune-Kitsune"}
+},
+["Nông nghiệp"] = {
+["Kiểu Nông trại Khi Hoàn thành Tất cả Nhiệm vụ"] = "Tập lệnh Tùy chỉnh", -- Tập lệnh Tùy chỉnh / Nông trại Gần đó /
+["Script tùy chỉnh"] = "game:Shutdown()"
+},
+["Tiện ích"] = {
+["Màn hình trắng"] = sai,
+["Tự động thêm bạn bè / Chấp nhận yêu cầu"] = đúng,
+["Chống gắn cờ"] = đúng,
+["Tự động nhảy nếu có người chơi ở gần khi cày cấp"] = đúng,
+["Kích hoạt Ui"] = đúng
+}
+}
+loadstring(trò chơi:HttpGet("https://raw.githubusercontent.com/eltrul/toi-yeu-hentaivn/main/SwitchKaitun.lua"))()
